@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.indexBody {
+    margin: 0px;
+    padding: 5%;
+    height: 100vh;
+    background-color: #e7a3e7;
+   /* background-color: #F8C8DC; */
+}
+
+.clickAquiFoto {
+    text-align: center;
+    margin: 0;
+    position: relative ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flechaboton {
+    background-color: #555555; /* Gris */
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.botonplaylist {
+    background-color: #555555; /* Gris */
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.botonplaylist:hover {
+    transition: 0.3s;
+    background-color: #121216; /* Green */
+    color: white;
+}
+
+.flechaboton:hover {
+    transition: 0.3s;
+    background-color: #121216; /* Green */
+    color: white;
+}
+
+.rata1 {
+    width: 350px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    font-size: 20px;
+}
